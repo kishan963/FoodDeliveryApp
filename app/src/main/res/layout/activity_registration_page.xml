@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f15421"
+    tools:context="Activity.Registration_page">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:text="Register Yourself" />
+
+    <EditText
+        android:id="@+id/editTextEnterYourName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Enter your name(Min. 3 Characters)"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmailAdress"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextEnterYourName"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Email Address"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/editTextMobileNumber"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextEmailAdress"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Mobile number"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/editTextDeliveryAddress"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextMobileNumber"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Delivery address"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/editTextChoosePassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextDeliveryAddress"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Choose a password(Min 4 Characters)"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/editTextReenterPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextChoosePassword"
+        android:background="@drawable/rounded_corner_views"
+        android:ems="10"
+        android:hint=" Confirm password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/Register_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E33333"
+        android:layout_below="@id/editTextReenterPassword"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp"
+        android:text="Register" />
+
+
+
+
+</RelativeLayout>

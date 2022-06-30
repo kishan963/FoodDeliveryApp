@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.Order_placed"
+    android:background="#E4511E"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView_palcedOrder"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/foodpe_logo" />
+
+    <TextView
+        android:id="@+id/textView_palcedOrder"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_below="@+id/imageView_palcedOrder"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="Your order has been successfully palced" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#E4511E"
+        android:backgroundTint="@color/white"
+        android:textSize="20dp"
+        android:text="OK" />
+</RelativeLayout>
